@@ -1,0 +1,422 @@
+/*Main Styles*/
+body{
+    background-color: #212121;
+}
+
+p{
+    color: whitesmoke;
+    font-family: 'M PLUS 1', sans-serif;
+}
+
+section{
+    min-height: 500px;
+}
+
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #B9DFDF;
+
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color:#B9DFDF;
+}
+
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+    flex-direction: row;
+}
+
+button{
+    background-color: #B9DFDF;
+    padding: 10px;
+    color: black;
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: 500;
+    border-radius: 12px;
+    display: inline-block;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    margin: auto;
+}
+
+button:hover{
+    font-weight:700;
+}
+
+button:active{
+    font-weight: 700;
+    background-color: #60C9C9;
+}
+
+h2{
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: 700;
+    color: white;
+    margin: auto;
+    padding: 10px;
+}
+
+/*Header Styles*/
+.header{
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    margin-left: 5%;
+    margin-right: 5%;
+    min-height: 100%;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    font-family: 'M PLUS 1', sans-serif;
+    font-size: 24px;
+
+}
+
+.menu li{
+    font-family: 'M PLUS 1', sans-serif;
+    font-size: 24px;
+}
+
+/*Body Styles*/
+/*Hero Image*/
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+.heroImg{
+    padding: 3%;
+}
+
+.left{
+    text-align: left;
+    margin: 5px;
+}
+
+.left h2{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}
+
+.left button{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: black;
+    gap: 10px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.headshot{
+    width: 450px;
+}
+
+.line-break{
+    width:95%;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2px;
+    border-top: 1px none black;
+    border-bottom: 1px solid #888888;
+    text-align: center;
+}
+
+.bodyH2{
+    margin-left: 10%;
+}
+
+/*Works*/
+
+.worksGrid{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 32rem 32rem;
+    grid-template-columns: 32rem 32rem;
+    grid-template-areas:
+    "nps chicagoReader"
+    "fridgeFriends secretary"
+    ;
+}
+
+#nps{
+    grid-area: nps;
+    background-image: url("../images/NPS.png");
+}
+
+#chicagoReader{
+    grid-area: chicagoReader;
+    background-image: url("../images/Reader.png");
+}
+
+#fridgeFriends{
+    grid-area: fridgeFriends;
+    background-image: url("../images/FridgeFriends.png");
+}
+
+#secretary{
+    grid-area: secretary;
+    background-image: url("../images/Secretary.png");
+}
+
+.worksGridArea{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+    cursor: pointer;
+    display: grid;
+    align-content: start;
+}
+
+.worksHeading{
+    background-color: rgba(250, 250, 250, 0.8);
+    padding: 15px;
+    height: 45px;
+    color: black;
+    text-align: center;
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+/*Skills*/
+
+.skillFlex{
+    padding-left: 50px;
+    margin: 10px;
+    justify-content: left;
+    text-align: left;
+    align-items: left;
+    width: 25%;
+}
+
+.flexContainer{
+    margin-left: 15%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+}
+
+.skillCategory{
+    color: white;
+    text-align: left;
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.skillsExpanded{
+    text-align: left;
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    justify-content: left;
+    
+}
+
+.indivSkill{
+    justify-content: left;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.skillList{
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin: 0;
+    padding-left: 0;
+}
+
+/*Footer Styles*/
+footer{
+    background-color: #212121;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    
+}
+
+.copyright p{
+    color: #FAC8CD;
+    font-family: 'M PLUS 1', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    bottom: 0;
+    left: 0;
+    padding: 50px;
+
+}
+
+footer ul{
+    display: inline-block;
+    vertical-align: top;
+    padding: center;
+    color: bisque;   
+    }
+    
+footer li{
+    padding: center;
+}
+
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    gap: 20px;
+}
+
+.contact-left-title{
+    text-align: center;
+    padding: 5px;
+    align-items: center;
+}
+
+.contact-left-title h2{
+    font-weight: 400;
+    color: white;
+    font-family: 'M PLUS 1', sans-serif;
+    font-size: 32px;
+    margin-bottom: 5px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: black;
+    border-radius: 12px;
+    font-family: 'M PLUS 1', sans-serif;
+}
+
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+    border-color: #FAC8CD;
+}
+
+.contact-inputs:focus{
+    border: 5px solid #FAC8CD;
+}
+
+.contact-inputs::placeholder{
+    color: #a4a4a4;
+}
+
+.contact-left button{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: black;
+    gap: 10px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.social-media{
+    display: inline-block;
+    text-align: center;
+}
+
+#linkedin{
+    align-items: center;
+    cursor: pointer;
+    background-image: url("/images/LinkedIn\ Circle\ White.png");
+}
+
+#linkedIn:hover{
+    display: inline;
+    opacity: 50%;
+}
+
+#github{
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+
+#github:hover{
+    display: inline;
+    opacity: 50%;
+    color: white;
+}
+
+@media only screen and (max-width: 600px){
+    .content{
+        flex-direction: column-reverse;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .flexContainer{
+        flex-direction: column;
+    }
+
+    .skillFlex{
+        width: 100%;
+    }
+
+    .worksGrid{
+        grid-template-rows: 28rem 28rem 28rem 28rem;
+        grid-template-columns: 28rem;
+        grid-template-areas:
+        "nps"
+        "chicagoReader"
+        "fridgeFriends"
+        "secretary"
+        ;
+    }
+
+    .worksHeading{
+        background-color: rgba(250, 250, 250, 0.8);
+        padding: 15px;
+        height: 45px;
+        color: black;
+        text-align: center;
+        font-family: 'M PLUS 1', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+    
+    }
+
+    .headshot{
+        width: 100%;
+    }
+
+}
