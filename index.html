@@ -19,7 +19,7 @@
                 <ul>
                     <li class="inline-block"><a href="">Home</a></li>
                     <li class="inline-block"><a href="https://drive.google.com/file/d/1MNSe10y2IUF9MC6tTle7mRjlPo58fQzL/view?usp=sharing">Resume</a></li>
-                    <li class="inline-block"><a href="">Works</a></li>
+                    <li class="inline-block" ><a href="#section2">Works</a></li>
                     <li class="inline-block"><a href="mailto:alejandra.robinson87@gmail.com?subject=Messaging from Website">Contact</a></li>
                 </ul>
             </div>
@@ -48,23 +48,43 @@
         <div class="line-break"></div>
 
         <!-- My Work Section Constructed using CSS Grid -->
-        <section class="works">
+        <section id="section2" class="works">
             <h2 class="bodyH2">Works</h2>
             <div class="worksGrid">
-                <div id="nps" class="worksGridArea">
-                    <div class="worksHeading">National Park Service Redesign</div>
+                <div id="nps" class="worksGridArea searchBar searchButton">
+                    <div class="worksHeading searchForm">National Park Service Redesign
+                        <p class="workDescription">
+                            The National Park Service website was updated to have a more intuitive design and a higher performing usability, but was given a vintage-looking design that calls back to the its historic roots.
+                        </p>
+                        <button class="workButton">View Case Study</button>
+                    </div>
 
                 </div>
-                <div id="chicagoReader" class="worksGridArea">
-                    <div class="worksHeading">Chicago Reader Redesign</div>
+                <div id="chicagoReader" class="worksGridArea searchBar searchButton">
+                    <div class="worksHeading searchForm">Chicago Reader Redesign
+                        <p class="workDescription">
+                            Current consumption of online news has decreased in the age of social media, so the design team brought a social media approach to Chicago’s alternative newsroom.
+                        </p>
+                        <button class="workButton">View Case Study</button>
+                    </div>
                     
                 </div>
-                <div id="fridgeFriends" class="worksGridArea">
-                    <div class="worksHeading">Fridge Friends Mobile App</div>
+                <div id="fridgeFriends" class="worksGridArea searchBar searchButton">
+                    <div class="worksHeading searchForm">Fridge Friends Mobile App
+                        <p class="workDescription">
+                            From taking stock of the fridge to offering substitutes when an ingredient isn’t available, Fridge Friends is a mobile app that aims to simplify the cooking process. The project is a mid-fidelity prototype.
+                        </p>
+                        <button class="workButton">View Case Study</button>
+                    </div>
                     
                 </div>
-                <div id="secretary" class="worksGridArea">
-                    <div class="worksHeading">Secretary Mobile App</div>
+                <div id="secretary" class="worksGridArea searchBar searchButton">
+                    <div class="worksHeading searchForm">Secretary Mobile App
+                        <p class="workDescription">
+                            Secretary is a mobile app that allows digital nomads to find activities in their city that fits their unique schedule– from the ultra famous sites to the niche events. The project is a mid-fidelity prototype.
+                        </p>
+                        <button class="workButton">View Case Study</button>                 
+                    </div>
                 </div>
             </div>
 
@@ -154,4 +174,6 @@
         </footer> 
 
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
 </html>
