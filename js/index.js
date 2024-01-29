@@ -10,7 +10,7 @@ $(".searchButton").hover(function(){
         $(this).find(".searchForm").css("height", "23.5rem");
       }
       else{
-        $(this).find(".searchForm").css("height", "27.5rem");
+        $(this).find(".searchForm").css("height", "35.5rem");
         console.log("big screen");
       }
       $(this).find(".workDescription").css("opacity","1");

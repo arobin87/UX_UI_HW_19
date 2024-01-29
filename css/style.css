@@ -37,25 +37,28 @@ a{
 
 button{
     background-color: #B9DFDF;
-    padding: 10px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
     color: black;
     font-family: 'M PLUS 1', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     border-radius: 12px;
     display: inline-block;
-    padding: 10px;
-    font-size: 24px;
+
     cursor: pointer;
     margin: auto;
+    align-items: center;
 }
 
 button:hover{
-    font-weight:700;
+    background-color: #FAC8CD;
 }
 
 button:active{
-    font-weight: 700;
-    background-color: #60C9C9;
+    font-weight: 800;
+    background-color: #FAC8CD;
 }
 
 h2{
@@ -120,7 +123,7 @@ h2{
 .left button{
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: 20px;
     color: black;
     gap: 10px;
     border: none;
@@ -133,8 +136,7 @@ h2{
 }
 
 .line-break{
-    width:95%;
-    max-width: 80%;
+    max-width: 90%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 2px;
@@ -144,7 +146,8 @@ h2{
 }
 
 .bodyH2{
-    margin-left: 10%;
+    font-size: 28px;
+    margin-left: 2%;
 }
 
 /*Works*/
@@ -152,8 +155,8 @@ h2{
 .worksGrid{
     display: grid;
     justify-content: center;
-    grid-template-rows: 32rem 32rem;
-    grid-template-columns: 32rem 32rem;
+    grid-template-rows: 40rem 40rem;
+    grid-template-columns: 40rem 40rem;
     grid-template-areas:
     "nps chicagoReader"
     "fridgeFriends secretary"
@@ -191,7 +194,7 @@ h2{
 }
 
 .worksHeading{
-    background-color: rgba(250, 250, 250, 0.8);
+    background-color: rgba(250, 250, 250, .95);
     padding: 15px;
     height: 2.18rem;
     color: black;
@@ -208,7 +211,7 @@ h2{
 .workDescription{
     color: black;
     text-align: left;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     opacity: 0;
     padding: 15px;
@@ -364,7 +367,7 @@ footer li{
 .contact-left button{
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: 20px;
     color: black;
     gap: 10px;
     border: none;
@@ -427,19 +430,24 @@ footer li{
     }
 
     .worksHeading{
-        background-color: rgba(250, 250, 250, 0.8);
+        background-color: rgba(250, 250, 250, .95);
         padding: 15px;
         height: 45px;
         color: black;
         text-align: center;
         font-family: 'M PLUS 1', sans-serif;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 20px;
     
     }
 
     .headshot{
         width: 100%;
+    }
+
+    .bodyH2{
+        margin-left: 2%;
+        font-size: 24px;
     }
 
 }
