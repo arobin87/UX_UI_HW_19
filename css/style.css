@@ -151,7 +151,9 @@ h2{
 }
 
 /*Works*/
-
+.works{
+    padding: 50px;
+}
 .worksGrid{
     display: grid;
     justify-content: center;
@@ -226,6 +228,9 @@ h2{
 
 /*Skills*/
 
+.mySkills{
+    padding: 50px;
+}
 .skillFlex{
     padding-left: 50px;
     margin: 10px;
@@ -446,8 +451,15 @@ footer li{
     }
 
     .bodyH2{
-        margin-left: 2%;
         font-size: 24px;
+    }
+
+    .works{
+        padding: 20px;
+    }
+
+    .mySkills{
+        padding: 20px;
     }
 
 }
