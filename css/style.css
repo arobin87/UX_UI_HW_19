@@ -226,6 +226,14 @@ h2{
     transition: .1s ease-in-out .1s;
 }
 
+.workLink{
+    color: black;
+}
+
+.workLink:hover{
+    text-decoration: underline;
+}
+
 /*Skills*/
 
 .mySkills{
