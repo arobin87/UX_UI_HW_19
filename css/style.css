@@ -16,19 +16,6 @@ section{
     min-height: 500px;
 }
 
-a:hover{
-    cursor: pointer;
-    text-decoration: underline;
-    color: #B9DFDF;
-
-}
-
-a{
-    cursor: pointer;
-    text-decoration: none;
-    color:#B9DFDF;
-}
-
 .inline-block{
     display: inline-block;
     vertical-align: top;
@@ -92,6 +79,19 @@ h2{
 .menu li{
     font-family: 'M PLUS 1', sans-serif;
     font-size: 24px;
+}
+
+.navLink:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #B9DFDF;
+
+}
+
+.navLink{
+    cursor: pointer;
+    text-decoration: none;
+    color:#B9DFDF;
 }
 
 /*Body Styles*/
@@ -228,6 +228,7 @@ h2{
 
 .workLink{
     color: black;
+    text-decoration: none;
 }
 
 .workLink:hover{
